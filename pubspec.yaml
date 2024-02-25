@@ -28,7 +28,6 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  build_runner: ^2.4.8
   cloud_firestore: ^4.15.5
   cupertino_icons: ^1.0.6
   firebase_auth: ^4.17.5
@@ -45,6 +44,7 @@ dev_dependencies:
     sdk: flutter
   freezed: ^2.4.7
   json_serializable: ^6.7.1
+  build_runner: ^2.4.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
