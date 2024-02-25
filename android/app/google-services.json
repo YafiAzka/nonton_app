@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023610864190",
+    "project_id": "nonton-29e94",
+    "storage_bucket": "nonton-29e94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023610864190:android:b6be059828f297ec9ac76f",
+        "android_client_info": {
+          "package_name": "com.nonton.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOEAudAHCZDCzS-bq6vfoLFoaYO0uj2dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
