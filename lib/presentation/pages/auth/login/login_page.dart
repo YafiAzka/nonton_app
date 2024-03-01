@@ -1,11 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:nonton_app/data/dummies/dummies_authentication.dart';
-import 'package:nonton_app/data/dummies/dummy_user_repository.dart';
-import 'package:nonton_app/data/firebase/firebase_authentication.dart';
-import 'package:nonton_app/data/firebase/firebase_user_repository.dart';
 import 'package:nonton_app/domain/usecases/login/login_usecase.dart';
 import 'package:nonton_app/presentation/pages/main/main_page.dart';
 import 'package:nonton_app/presentation/providers/usecase/login_provider.dart';

@@ -3,14 +3,16 @@ import 'package:nonton_app/domain/entities/result.dart';
 
 class DummyAuthentication implements Authentication {
   @override
-  String? getloggedInUserId;
+  String? getloggedInUserId() {
+    // TODO: implement getloggedInUserId
+    throw UnimplementedError();
+  }
 
   @override
   Future<Result<String>> login(
-      {required String email, required String password}) async {
-    await Future.delayed(const Duration(seconds: 1));
-    return const Result.success('ID-1234');
-    // return const Result.failed('Login Gagal');
+      {required String email, required String password}) {
+    // TODO: implement login
+    throw UnimplementedError();
   }
 
   @override

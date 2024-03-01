@@ -13,5 +13,5 @@ abstract interface class Authentication {
 
   Future<Result<void>> logout();
 
-  String? getloggedInUserId;
+  String? getloggedInUserId();
 }
