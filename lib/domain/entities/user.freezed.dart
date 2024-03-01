@@ -20,7 +20,7 @@ User _$UserFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$User {
-  int get uid => throw _privateConstructorUsedError;
+  String get uid => throw _privateConstructorUsedError;
   String get email => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
   String? get photoUrl => throw _privateConstructorUsedError;
@@ -37,7 +37,7 @@ abstract class $UserCopyWith<$Res> {
       _$UserCopyWithImpl<$Res, User>;
   @useResult
   $Res call(
-      {int uid, String email, String name, String? photoUrl, int balance});
+      {String uid, String email, String name, String? photoUrl, int balance});
 }
 
 /// @nodoc
@@ -63,7 +63,7 @@ class _$UserCopyWithImpl<$Res, $Val extends User>
       uid: null == uid
           ? _value.uid
           : uid // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       email: null == email
           ? _value.email
           : email // ignore: cast_nullable_to_non_nullable
@@ -92,7 +92,7 @@ abstract class _$$UserImplCopyWith<$Res> implements $UserCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int uid, String email, String name, String? photoUrl, int balance});
+      {String uid, String email, String name, String? photoUrl, int balance});
 }
 
 /// @nodoc
@@ -115,7 +115,7 @@ class __$$UserImplCopyWithImpl<$Res>
       uid: null == uid
           ? _value.uid
           : uid // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       email: null == email
           ? _value.email
           : email // ignore: cast_nullable_to_non_nullable
@@ -150,7 +150,7 @@ class _$UserImpl implements _User {
       _$$UserImplFromJson(json);
 
   @override
-  final int uid;
+  final String uid;
   @override
   final String email;
   @override
@@ -200,7 +200,7 @@ class _$UserImpl implements _User {
 
 abstract class _User implements User {
   factory _User(
-      {required final int uid,
+      {required final String uid,
       required final String email,
       required final String name,
       final String? photoUrl,
@@ -209,7 +209,7 @@ abstract class _User implements User {
   factory _User.fromJson(Map<String, dynamic> json) = _$UserImpl.fromJson;
 
   @override
-  int get uid;
+  String get uid;
   @override
   String get email;
   @override
